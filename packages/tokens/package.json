@@ -1,0 +1,22 @@
+{
+  "name": "@ds-ui-ignite-call/tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@ds-ui-ignite-call/ts-config": "*",
+    "@ds-ui-ignite-call/eslint-config": "*",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
+}

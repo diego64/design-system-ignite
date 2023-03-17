@@ -1,0 +1,3 @@
+{
+  "extends": "@ds-ui-ignite-call/eslint-config"
+}
