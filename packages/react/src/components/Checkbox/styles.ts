@@ -20,13 +20,12 @@ export const CheckboxContainer = styled(Checkbox.Root, {
     backgroundColor: '$ignite300',
   },
 
-  '&:focus': {
+  '&:focus, &[data-state="checked"]': {
     border: '2px solid $ignite300',
   },
 })
 
 //Animação da Flag no botão
-
 const slideIn = keyframes({
   from: {
     transform: 'translateY(-100%)',

@@ -25,6 +25,10 @@ export const Button = styled('button', {
   },
 
   '&:disabled': {
+    boxShadow: '0 0 0 2px $color$gray100',
+  },
+
+  '&:focus': {
     cursor: 'not-allowed',
   },
 
