@@ -1,0 +1,2 @@
+import{A as t}from"./index.4b0a5b9e.js";import"./index.4a503249.js";import"./iframe.e7295813.js";import"./index.cce8408f.js";import"./jsx-runtime.4a54aa4c.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/diego64.png",alt:"Diego Ferreira"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,c as WithFallback,m as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.41731860.js.map
